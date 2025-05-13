@@ -20,7 +20,7 @@ import { CategoriesModule } from './categories/categories.module';
     GoalsModule,
     CategoriesModule,
     ConfigModule.forRoot({
-      envFilePath: `.${process.env.NODE_ENV}.env`,
+      envFilePath: `.env`,
     }),
   ],
   controllers: [AppController],
